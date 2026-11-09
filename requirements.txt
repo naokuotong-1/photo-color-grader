@@ -1,0 +1,12 @@
+# 核心依赖
+numpy>=1.24
+pillow>=10.0
+
+# 语义分区 / 题材识别需要；缺失时自动降级为纯全局调色，不会崩
+onnxruntime>=1.16
+
+# 可选：16bit TIFF 读写
+tifffile>=2023.7
+
+# 可选：RAW 直读（跑的是 libraw 通用解码，非相机 DCP，见 README「已知局限」）
+rawpy>=0.19

@@ -1,0 +1,11 @@
+# 统一换行，避免 Windows 上 CRLF 混进 Python 脚本与 JSON
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.onnx  binary
+*.cube  text eol=lf
+*.jpg   binary
+*.png   binary
+*.tif   binary

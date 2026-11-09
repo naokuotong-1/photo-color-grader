@@ -1,0 +1,24 @@
+# 分割模型权重：20 MB，且上游许可是「非商业研究用途」，不随仓库分发
+# 获取方式见 models/README.md 或 python scripts/fetch_model.py
+models/segformer-b0-ade/*.onnx
+
+# 风格库是本地数据（含用户素材样本），不进版本库
+color-styles/
+
+# 调色产出
+out/
+for_lightroom/
+*.cube
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,5 +1,7 @@
 # photo-color-grader
 
+**中文** | [English](README.en.md)
+
 把「一种调色风格」学成一个可复用的 3D LUT，然后批量套到新素材上。
 逐像素色彩映射，不重绘、不改变内容、不改几何——结构 SSIM 恒等于 1.0。
 

@@ -46,7 +46,7 @@ Region-aware (`sky` / `people` / `veg` / …) via SegFormer-B0 soft masks.
 这是一个 [Agent Skill](https://www.workbuddy.cn/docs/workbuddy/Overview)（`SKILL.md` + `scripts/`）。
 
 ```bash
-git clone https://github.com/<你的用户名>/photo-color-grader.git
+git clone https://github.com/naokuotong-1/photo-color-grader.git
 
 # WorkBuddy
 cp -r photo-color-grader ~/.workbuddy/skills/
